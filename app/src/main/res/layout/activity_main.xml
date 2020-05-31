@@ -9,5 +9,44 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#26ade0">
+
+    <Button
+        android:id="@+id/btn_Ask"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ask"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_everyday_decisions_easier"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_Ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ball1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
 </RelativeLayout>
